@@ -8,19 +8,45 @@ A ROM tool for Zelda Majora's Mask.
 
 - Core/CLI (command-line tool)
   - [ ] Calculate & compare ROM against existing CRC sums.
-  - [ ] Compress/Decompress ROM
-  - [ ] Extract dmatable
-  - [ ] Dump scene assets as `.obj` and `.mtl`. (should be normalized triangle-faces)
+  - [ ] Compress/Decompress ROM.
+  - [ ] Extract dmatable segments (text or JSON).
+  - [ ] Dump scene assets as `.obj` and `.mtl`. (should be normalized triangle-faces).
   - [ ] Dump actor assets as `.png` and `.json`.
   - [ ] Dump item assets as `.png` and `.json`.
   - [ ] Dump sound assets as `.ogg` or `.wav`.
-  - [ ] Export scenes to OBJ/MTL's
-  - [ ] Edit strings
+  - [ ] Export scenes to OBJ/MTL's.
+  - [ ] Edit strings.
 
 - GUI (graphical tool)
-  - [ ] Show loading progress of 
-
-
+  - [ ] Select ROM or drag-n-drop ROM into the window.
+  - [ ] Titlebar
+    - [ ] File
+      - [ ] Load ROM.
+      - [ ] Save (to current ROM).
+      - [ ] Save As (new ROM).
+      - [ ] Import settings from `.json`.
+      - [ ] Export settings as `.json`.
+    - [ ] Edit
+      - [ ] Undo last change.
+      - [ ] Redo last change.
+      - [ ] Reset all changes (to loaded ROM).
+    - [ ] Items
+    - [ ] Scenes
+    - [ ] Strings
+    - [ ] Actors
+  - [ ] 3D Scene Viewer (map).
+    - [ ] Show scene settings.
+    - [ ] Edit scene options.
+    - [ ] Label actors and elements in scene.
+    - [ ] Scene Editor.
+  - [ ] Item Viewer.
+    - [ ] Item Editor.
+  - [ ] Object Viewer.
+  - [ ] String Viewer.
+    - [ ] String Editor.
+    - [ ] Export to `.txt`.
+    - [ ] Export to `.json`.
+    - [ ] Load from `.json`.
 
 
 
@@ -93,10 +119,11 @@ todo
 
 
 
-### Credit
+### Credits to
 
-Huge thanks to:
-
-- Jimmie1717's [Majora's Mask Editor](https://jimmie1717.com/tools/mm)
-- [TCRF](https://tcrf.net/Development:The_Legend_of_Zelda:_Majora%27s_Mask)
-- [ZeldaRet MM](https://github.com/zeldaret/mm)
+- Jimmie1717's [Majora's Mask Editor](https://jimmie1717.com/tools/mm) - Developer and Reverse Engineer.
+- [TCRF](https://tcrf.net/Development:The_Legend_of_Zelda:_Majora%27s_Mask) - The Cutting Room Floor Wiki (Nintendo Reverse Engineering).
+- [ZeldaRet MM](https://github.com/zeldaret/mm) - Zelda Reverse Engineering Community.
+- [MajinPhil](https://majinphil.gg/) - Majora's Mask Speedrunner & Streamer.
+- [ZFG](https://www.twitch.tv/Zfg1) - Majora's Mask Speedrunner & Streamer.
+- [EnNopp112](https://www.twitch.tv/ennopp112) - Majora's Mask Speedrunner & Streamer.
