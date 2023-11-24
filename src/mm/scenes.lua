@@ -1163,7 +1163,7 @@ scenes = {
 			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
 			["restriction_flags"] = RESTRICTIONS_NONE
 		}
-	},
+	}
 
 
 
@@ -1173,14 +1173,7 @@ scenes = {
 
 
 
-
-
-
-
-
-
-
-
+	
 }
 
 
