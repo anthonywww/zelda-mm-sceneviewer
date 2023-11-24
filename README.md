@@ -121,7 +121,7 @@ todo
 
 ### Credits to
 
-- Jimmie1717's [Majora's Mask Editor](https://jimmie1717.com/tools/mm) - Developer and Reverse Engineer.
+- [Jimmie1717](https://github.com/jimmie1717) -  [Majora's Mask Editor](https://jimmie1717.com/tools/mm) Developer and Majora's Mask Reverse Engineer.
 - [TCRF](https://tcrf.net/Development:The_Legend_of_Zelda:_Majora%27s_Mask) - The Cutting Room Floor Wiki (Nintendo Reverse Engineering).
 - [ZeldaRet MM](https://github.com/zeldaret/mm) - Zelda Reverse Engineering Community.
 - [MajinPhil](https://majinphil.gg/) - Majora's Mask Speedrunner & Streamer.
