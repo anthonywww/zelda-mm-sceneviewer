@@ -8,7 +8,7 @@ function love.conf(t)
 	t.gammacorrect = false              -- Enable gamma-correct rendering, when supported by the system (boolean)
 	t.audio.mixwithsystem = true        -- Keep background music playing when opening LOVE (boolean, iOS and Android only)
 
-	t.window.title = "Zelda MM Tool | No ROM Selected" -- The window title (string)
+	t.window.title = "Zelda MM DataLib | No ROM Selected" -- The window title (string)
 	t.window.icon = "resources/icon.png"   -- Filepath to an image to use as the window's icon (string)
 	t.window.width = 800                -- The window width (number)
 	t.window.height = 600               -- The window height (number)

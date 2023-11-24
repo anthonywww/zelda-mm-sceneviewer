@@ -1,6 +1,6 @@
 FROM alpine:3.18.4
-LABEL name="zelda-mm-tool"
-LABEL description="Zelda Majora's Mask Tool."
+LABEL name="zmm-datalib"
+LABEL description="Zelda Majora's Mask DataLib."
 LABEL maintainer="Anthony Waldsmith <awaldsmith@protonmail.com>"
 
 # Install dependencies
