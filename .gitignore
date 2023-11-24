@@ -1,0 +1,13 @@
+# Rubbish
+bin/
+*.DS_Store
+Thumbs.db
+config/
+output/
+*.bin
+*.log
+
+# Do not include ROM files
+*.n64
+*.z64
+*.v64

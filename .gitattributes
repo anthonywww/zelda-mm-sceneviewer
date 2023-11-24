@@ -1,0 +1,3 @@
+# GitHub Linguist Coloring
+*.lua linguist-language=Lua
+*.json linguist-language=JSON
