@@ -1,13 +1,21 @@
-# Rubbish
-bin/
+# IDE rubbish
+.idea/
+.vscode/
+
+# OS rubbish
 *.DS_Store
 Thumbs.db
-config/
+
+# Ignore binaries
+bin/
 output/
+cache/
 *.bin
 *.log
 
 # Do not include ROM files
+roms/
+rom/
 *.n64
 *.z64
 *.v64

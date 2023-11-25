@@ -1,6 +1,4 @@
 
-
-
 -- Pretty console print handler
 function log(logLevel, text)
 	if (type(logLevel) ~= "number") then
