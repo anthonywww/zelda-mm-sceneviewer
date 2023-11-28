@@ -1163,17 +1163,280 @@ scenes = {
 			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
 			["restriction_flags"] = RESTRICTIONS_NONE
 		}
+	},
+	["PATH_TO_GORON_VILLAGE_WINTER"] = {
+		["id"] = 0x5d,
+		["i18n"] = {
+			["en_us"] = "Path to Goron Village (winter)"
+		},
+		["groups"] = {"GORON_VILLAGE", "MOUNTAIN_VILLAGE", "NORTH_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_17SETUGEN",
+			["title_card_text_id"] = 0x00,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["PATH_TO_GORON_VILLAGE_SPRING"] = {
+		["id"] = 0x5e,
+		["i18n"] = {
+			["en_us"] = "Path to Goron Village (spring)"
+		},
+		["groups"] = {"GORON_VILLAGE", "MOUNTAIN_VILLAGE", "NORTH_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_17SETUGEN2",
+			["title_card_text_id"] = 0x00,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["GREAT_BAY_BOSS"] = {
+		["id"] = 0x5f,
+		["i18n"] = {
+			["en_us"] = "Gyorg's Lair"
+		},
+		["groups"] = {"GREAT_BAY", "BOSS", "WEST_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_SEA_BS",
+			["title_card_text_id"] = 0x00,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["SECRET_SHRINE"] = {
+		["id"] = 0x60,
+		["i18n"] = {
+			["en_us"] = "Secret Shrine"
+		},
+		["groups"] = {"IKANA_VALLEY", "EAST_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_RANDOM",
+			["title_card_text_id"] = 0x12C,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["STOCK_POT_INN"] = {
+		["id"] = 0x61,
+		["i18n"] = {
+			["en_us"] = "Stock Pot In"
+		},
+		["groups"] = {"INDOORS", "EAST_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_YADOYA",
+			["title_card_text_id"] = 0x10A,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_INDOORS
+		}
+	},
+	["GREAT_BAY_CUTSCENE"] = {
+		["id"] = 0x62,
+		["i18n"] = {
+			["en_us"] = "Great Bay Cutscene"
+		},
+		["groups"] = {"GREAT_BAY", "WEST_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_KONPEKI_ENT",
+			["title_card_text_id"] = 0x139,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["CLOCK_TOWER_INTERIOR"] = {
+		["id"] = 0x63,
+		["i18n"] = {
+			["en_us"] = "Clock Tower Interior"
+		},
+		["groups"] = {"CLOCK_TOWER", "INDOORS"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_INSIDETOWER",
+			["title_card_text_id"] = 0,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = nil
+		}
+	},
+	["WOODS_OF_MYSTERY"] = {
+		["id"] = 0x64,
+		["i18n"] = {
+			["en_us"] = "Woods of Mystery"
+		},
+		["groups"] = {"SOUTH_TERMINA", "SOUTHERN_SWAMP"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_26SARUNOMORI",
+			["title_card_text_id"] = 0x11D,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NO_DOUBLE_TIME
+		}
+	},
+	["LOST_WOODS"] = {
+		["id"] = 0x65,
+		["i18n"] = {
+			["en_us"] = "Lost Woods (Intro)"
+		},
+		["groups"] = {"HYRULE"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_LOST_WOODS",
+			["title_card_text_id"] = 0,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["MOON_TRIAL_LINK"] = {
+		["id"] = 0x66,
+		["i18n"] = {
+			["en_us"] = "Moon Trial Link"
+		},
+		["groups"] = {"MOON"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_LAST_LINK",
+			["title_card_text_id"] = 0,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_MOON
+		}
+	},
+	["MOON"] = {
+		["id"] = 0x67,
+		["i18n"] = {
+			["en_us"] = "The Moon"
+		},
+		["groups"] = {"MOON"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_SOUGEN",
+			["title_card_text_id"] = 0,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_MOON
+		}
+	},
+	["BOMB_SHOP"] = {
+		["id"] = 0x68,
+		["i18n"] = {
+			["en_us"] = "Bomb Shop"
+		},
+		["groups"] = {"WEST_CLOCKTOWN", "SHOP", "INDOORS"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_BOMYA",
+			["title_card_text_id"] = 0x10D,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_INDOORS
+		}
+	},
+	["GIANTS_CHAMBER"] = {
+		["id"] = 0x69,
+		["i18n"] = {
+			["en_us"] = "Giants' Chamber"
+		},
+		["groups"] = {},
+		["metadata"] = {
+			["segment_spec"] = "Z2_KYOJINNOMA",
+			["title_card_text_id"] = 0,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["GORMAN_TRACK"] = {
+		["id"] = 0x6a,
+		["i18n"] = {
+			["en_us"] = "Gorman Track"
+		},
+		["groups"] = {"SOUTH_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_KOEPONARACE",
+			["title_card_text_id"] = 0x131,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NO_DOUBLE_TIME
+		}
+	},
+	["GORMAN_TRACK"] = {
+		["id"] = 0x6b,
+		["i18n"] = {
+			["en_us"] = "Gorman Track"
+		},
+		["groups"] = {"SOUTH_TERMINA"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_KOEPONARACE",
+			["title_card_text_id"] = 0x131,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NO_DOUBLE_TIME
+		}
+	},
+	["GORON_RACETRACK"] = {
+		["id"] = 0x6b,
+		["i18n"] = {
+			["en_us"] = "Goron Racetrack"
+		},
+		["groups"] = {"NORTH_TERMINA", "MOUNTAIN_VILLAGE"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_GORONRACE",
+			["title_card_text_id"] = 0x126,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["EAST_CLOCKTOWN"] = {
+		["id"] = 0x6c,
+		["i18n"] = {
+			["en_us"] = "East Clock Town"
+		},
+		["groups"] = {"EAST_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_TOWN",
+			["title_card_text_id"] = 0x101,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["WEST_CLOCKTOWN"] = {
+		["id"] = 0x6d,
+		["i18n"] = {
+			["en_us"] = "West Clock Town"
+		},
+		["groups"] = {"WEST_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_ICHIBA",
+			["title_card_text_id"] = 0x102,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["NORTH_CLOCKTOWN"] = {
+		["id"] = 0x6e,
+		["i18n"] = {
+			["en_us"] = "North Clock Town"
+		},
+		["groups"] = {"NORTH_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_BACKTOWN",
+			["title_card_text_id"] = 0x103,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_DEFAULT,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["SOUTH_CLOCKTOWN"] = {
+		["id"] = 0x6f,
+		["i18n"] = {
+			["en_us"] = "South Clock Town"
+		},
+		["groups"] = {"SOUTH_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_CLOCKTOWER",
+			["title_card_text_id"] = 0x104,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
+	},
+	["LAUNDRY_POOL"] = {
+		["id"] = 0x70,
+		["i18n"] = {
+			["en_us"] = "Laundry Pool"
+		},
+		["groups"] = {"SOUTH_CLOCKTOWN"},
+		["metadata"] = {
+			["segment_spec"] = "Z2_ALLEY",
+			["title_card_text_id"] = 0x105,
+			["scene_draw_config_index"] = SCENE_DRAW_CFG_MAT_ANIM,
+			["restriction_flags"] = RESTRICTIONS_NONE
+		}
 	}
-
-
-
-
-
-
-
-
-
-	
 }
 
 
