@@ -4,6 +4,7 @@ A cross-platform GUI tool for viewing Zelda: Majora's Mask (2000) scene's (maps)
 
 ### Features
 
+- [ ] Identify ROM type and match hash against existing hashes.
 - [ ] Decompress(Yaz0) or byte-flip ROM.
 - [ ] Find and read DMA table.
 - [ ] dearimgui GUI.

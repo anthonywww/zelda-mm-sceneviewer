@@ -50,4 +50,3 @@ function string.explode(str, separator)
 	end
 	return o
 end
-

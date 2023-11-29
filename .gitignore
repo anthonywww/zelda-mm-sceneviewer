@@ -14,8 +14,7 @@ cache/
 *.log
 
 # Do not include ROM files
-roms/
-rom/
+./roms/
 *.n64
 *.z64
 *.v64

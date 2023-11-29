@@ -3,7 +3,7 @@ if love.graphics == nil then
 	error("This project must be run in LÖVE-2D!")
 end
 
--- make this a path to the OS' tmp and extract the dependency to it.
+-- make this a path to the OS' tmp and extract the dependency to it from the fused fs.
 local lib_path = "resources/natives/"
 local extension = (jit.os == "Windows" and "dll" or jit.os == "Linux" and "so" or jit.os == "OSX" and "dylib")
 package.cpath = string.format("%s;%s/?.%s", package.cpath, lib_path, extension)
