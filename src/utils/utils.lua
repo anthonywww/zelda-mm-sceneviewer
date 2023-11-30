@@ -1,26 +1,3 @@
-
--- Pretty console print handler
-function log(logLevel, text)
-	if (type(logLevel) ~= "number") then
-		error ("Illegal log level type provided, this must be a number")
-	end
-	if logLevel < 0 or logLevel > 3 then
-		error ("Illegal log level provided, use 'info' for informational messages")
-		return
-	end
-	local logLevelName = ""
-	if logLevel == 0 then
-		logLevelName = "DEBUG"
-	elseif logLevel == 1 then
-		logLevelName = "INFO"
-	elseif logLevel == 2 then
-		logLevelName = "WARN"
-	elseif logLevel == 3 then
-		logLevelName = "ERROR"
-	end
-	print(os.date("[%H:%M:%S] [" .. logLevelName .. "] " .. text))
-end
-
 function string.startsWith(str, start)
 	return string.sub(str,1,string.len(start))==start
 end
@@ -31,6 +8,10 @@ end
 
 function string.trim(str)
 	return (str:gsub("^%s*(.-)%s*$", "%1"))
+end
+
+function math.clamp(v, a, b)
+	return math.max(math.min(v, b or 1.0), a or 0.0)
 end
 
 function table.implode(list, separator)

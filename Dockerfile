@@ -14,4 +14,4 @@ WORKDIR /home/zelda
 # Switch to user
 USER zelda
 
-CMD ["/bin/ash", "./compile.sh"]
+CMD ["lua5.4", "main.lua"]

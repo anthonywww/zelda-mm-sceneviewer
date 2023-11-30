@@ -1,8 +1,6 @@
 # GitHub Linguist Coloring
 *.md linguist-detectable
+*.lua linguist-language=Lua
+*.glsl linguist-language=GLSL
 *.dm linguist-language=Darkmatter
 *.asm linguist-language=Assembly
-*.ll linguist-language=Assembly
-*.java linguist-language=Java
-*.lua linguist-language=Lua
-*.json linguist-language=JSON

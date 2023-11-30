@@ -16,7 +16,14 @@ zmmt.init = function()
 
 end
 
+zmmt.initGraphics = function()
+	-- if not running in LÖVE
+	if love.graphics == nil then
+		error("This project must be run in LÖVE-2D for a GUI!")
+	end
 
+
+end
 
 
 

@@ -1,4 +1,4 @@
-
+-- ROM file type
 -- http://n64dev.org/romformats.html
 
 -- Native format - ABCD

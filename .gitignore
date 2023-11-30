@@ -5,6 +5,8 @@
 # OS rubbish
 *.DS_Store
 Thumbs.db
+*.tmp
+*.swp
 
 # Ignore binaries
 bin/
